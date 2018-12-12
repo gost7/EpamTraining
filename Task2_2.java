@@ -3,7 +3,7 @@ package com.company;
 import java.nio.file.attribute.UserDefinedFileAttributeView;
 import java.util.Scanner;
 
-class Main {
+class Task2_2 {
     public static void main(String[] args) {
 
         System.out.println("Is equal a, b and c?");
