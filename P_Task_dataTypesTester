@@ -10,6 +10,8 @@ public class Main {
         dataTypesTester.testDouble();
         dataTypesTester.testChar();
         dataTypesTester.testBoolean();
+        Student st = new Student("Dima", 7);
+        dataTypesTester.testStringStudent(st.toString());
     }
 }
 
