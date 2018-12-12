@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-class Main {
+class Task2_1 {
     public static void main(String[] args) {
         Calculator.calculation();
     }
