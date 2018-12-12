@@ -1257,4 +1257,43 @@ class dataTypesTester {
     //c = (boolean) d;
             c = bool;
         }
+        
+    public static void testStringStudent(String a) {
+        String b = "hgkc", c = "";
+        System.out.println("\n*****String Test Student*****\n");
+        System.out.println("\n***** Arithmetical Operators *****");
+
+        System.out.printf("%s + %s = %s\n", a, b, c = a + b);
+
+        System.out.println("\n***** Assignment Operators *****");
+        c = "xfxh";
+        System.out.printf("%s += %s --> c = %s\n", c, a, c += a);
+        System.out.println("\n***** Relational Operators *****");
+        System.out.printf("%s == %s --> %b\n", a, b, a == b);
+        System.out.printf("%s != %s --> %b\n", a, b, a != b);
+        System.out.println("\n***** Logical Operations *****");
+
+        System.out.println("\n***** Misc Operators *****");
+        System.out.println("\nType Cast Operator:");
+        byte bt = 1;
+        short sh = -32000;
+        char ch = '\u0002';
+        long l = 100000000000000000L;
+        float f = 1.9f;
+        double d = 123456789.625;
+        boolean bool = true;
+        c = String.valueOf(bt);
+        System.out.printf("String = byte: c = %s --> c = %s\n", bt, c);
+        c = String.valueOf(sh);
+        System.out.printf("String = short: c = %d --> c = %s\n", sh, c);
+        c = String.valueOf(ch);
+        System.out.printf("String = char: c = '%c' --> c = %s\n", ch, c);
+        c = String.valueOf(l);
+        System.out.printf("String = long: c = (String)%s --> c = %s\n", l, c);
+        c = String.valueOf(f);
+        System.out.printf("String = float: c = (String)%f --> c = %s\n", f, c);
+        c = String.valueOf(d);
+        System.out.printf("String = double: c = (String)%f --> c = %s\n", d, c);
+//      System.out.printf("String = boolean: c = (String)%b --> Compile Error\n", bool);
+    }
 }
