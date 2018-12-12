@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-class Main {
+class Task2_3 {
     public static void main(String[] args) {
         double r1 = UserInput.input("input r1: ");
         double r2 = UserInput.input("input r2: ");
